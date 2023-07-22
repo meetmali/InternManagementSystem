@@ -1,0 +1,54 @@
+.certificate-container {
+    max-width: 600px;
+    margin: 100px auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.certificate-header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.certificate-search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+.certificate-search-icon {
+    margin-right: 8px;
+    color: #777;
+}
+
+.certificate-search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.certificate-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.certificate-th, .certificate-td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.certificate-th {
+    background-color: #f0f0f0;
+}
+
+.certificate-tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
