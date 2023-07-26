@@ -12,15 +12,15 @@
 <body>
     <nav class="navbar">
         <div class="left-links">
-            <a href="index.php">Alpha Labs</a>
+            <a href="../index.php">Alpha Labs</a>
             <a href="internships.php">Internships</a>
             <a href="#">Courses</a>
             <a href="about.php">About us</a>
             <a href="certificateVal.php">Certificate Validator</a>
         </div>
         <div class="right-links">
-            <a href="login.html">Signin</a>
-            <a href="signup.html">Signup</a>
+            <a href="login.php">Login</a>
+            <a href="signup.php">Signup</a>
         </div>
     </nav>
 
