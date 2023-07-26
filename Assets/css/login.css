@@ -1,0 +1,114 @@
+.login-section{
+    /* margin: 0; */
+    /* padding: 0; */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+
+
+
+
+  .toggle-container {
+    display: flex;
+    background-color: #f1f1f1;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .toggle-input {
+    display: none;
+  }
+  
+  .toggle-label {
+    flex: 1;
+    text-align: center;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  }
+  
+  .toggle-input:checked + .toggle-label {
+    background-color: #0b6c8f;
+    color: #fff;
+  }
+  
+  /* Hover style remains when an option is checked */
+  .toggle-input:checked + .toggle-label:hover {
+    background-color: #0b6c8f;
+  }
+
+
+
+
+
+
+
+  
+  .logn-container {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .logn-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .logn-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .logn-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .logn-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .logn-options {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .logn-options a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .logn-options .logn-divider {
+    margin: 0 10px;
+    color: #ccc;
+  }
