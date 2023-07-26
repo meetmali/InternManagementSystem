@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+   
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0b6c8f; /* Green background color */
+    padding: 10px 20px;
+    height: 50px; /* Increased height */
+  }
+  
+  .left-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .left-links a {
+    text-decoration: none;
+    color: white; /* White text color */
+    margin-right: 25px; /* Increased spacing */
+    font-weight: bold;
+  }
+  
+  .right-links a {
+    text-decoration: none;
+    color: white; /* White text color */
+    margin-left: 15px;
+    font-weight: bold;
+  }
+  
+  .right-links {
+    display: flex;
+    align-items: center;
+  }
+
+  .home-pg-content{
+    height:90vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* height: 100vh;  */
+  }
+  
+  .explore-button {
+    padding: 20px 40px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .explore-button a{
+    color: white;
+    text-decoration: none;
+  }
+  .explore-button:hover {
+    background-color: #45a049;
+  }
+
+/* Code for explore opportunities */
+
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* height: 40vh;  */
+  }
+  
+  .header h1 {
+    font-size: 56px; /* Large font size */
+    font-weight: bold;
+    color: #333;
+    position: relative;
+  }
+
+
+  .header h1::after {
+    content: "";
+    position: absolute;
+    width: 120px; /* Adjust the width of the underline */
+    height: 4px; /* Adjust the height/thickness of the underline */
+    background-color: #4CAF50; /* Color of the underline */
+    bottom: -15px; /* Distance of the underline from the text */
+    left: 50%; /* Position the underline in the center */
+    transform: translateX(-50%); /* Center the underline horizontally */
+    border-radius: 50px; /* To create the curved shape */
+  }
+
+
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+ .card {
+    background-color: #f0f0f0; /* Light greyish color */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Transition effect on hover */
+  }
+  
+  .card:hover {
+    background-color: #4CAF50; /* Greenish blue color on hover */
+    color: white; /* White text on hover */
+  }
