@@ -15,7 +15,7 @@
 <body>
     <nav class="navbar">
         <div class="left-links">
-            <a href="../index.php">Alpha Labs</a>
+            <a href="index.php">Alpha Labs</a>
             <a href="internships.php">Internships</a>
             <a href="#">Courses</a>
             <a href="about.php">About us</a>
@@ -40,11 +40,13 @@
         <div class="logn-container">
             <div class="logn-box">
                 <h1>Welcome Back!</h1>
-                <form class="logn-form" action="/login" method="post">
+
+                <form class="logn-form" action="../Actions/login.php" method="POST">
                     <input type="text" name="username" placeholder="Username" required>
                     <input type="password" name="password" placeholder="Password" required>
                     <button type="submit">Login</button>
                 </form>
+
                 <div class="logn-options">
                     <a href="/forgot-password">Forgot Password?</a>
                     <span class="logn-divider"></span>
