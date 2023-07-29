@@ -15,7 +15,7 @@
 
     <nav class="navbar">
         <div class="left-links">
-            <a href="index.php">Alpha Labs</a>
+            <a href="../index.php">Alpha Labs</a>
             <a href="internships.php">Internships</a>
             <a href="#">Courses</a>
             <a href="#">About us</a>
