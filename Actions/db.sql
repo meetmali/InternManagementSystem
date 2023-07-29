@@ -1,0 +1,12 @@
+INSERT INTO interns (intern_name, intern_username, intern_email, intern_phone, intern_college, intern_current_year, intern_passing_year, intern_course, intern_marks, intern_resume, internship_name, internship_rating, stipend, duration, intern_password)
+VALUES
+('John Doe', 'john_doe', 'john@example.com', '1234567890', 'ABC College', 3, 2023, 'Computer Science', 85.5, 'john_doe_resume.pdf', 'Web Development Internship', 4.5, 1000.00, 6, '123'), -- Password: password123
+('Jane Smith', 'jane_smith', 'jane@example.com', '9876543210', 'XYZ University', 4, 2022, 'Electrical Engineering', 78.2, 'jane_smith_resume.pdf', 'Electronics Internship', 4.2, 800.00, 4, '456'), -- Password: password123
+('Michael Johnson', 'michael_johnson', 'michael@example.com', '5555555555', 'PQR Institute', 2, 2024, 'Mechanical Engineering', 90.0, 'michael_johnson_resume.pdf', 'Mechanical Design Internship', 4.8, 1200.00, 3, '789'), -- Password: password123
+('Emily Williams', 'emily_williams', 'emily@example.com', '1111111111', 'LMN College', 3, 2023, 'Chemistry', 79.8, 'emily_williams_resume.pdf', 'Chemistry Research Internship', 4.0, 700.00, 2, '101'), -- Password: password123
+('David Brown', 'david_brown', 'david@example.com', '2222222222', 'RST University', 4, 2022, 'Business Administration', 88.5, 'david_brown_resume.pdf', 'Marketing Internship', 4.6, 900.00, 5, '112'), -- Password: password123
+('Sarah Lee', 'sarah_lee', 'sarah@example.com', '3333333333', 'UVW College', 2, 2024, 'Biotechnology', 92.7, 'sarah_lee_resume.pdf', 'Biotech Research Internship', 4.9, 1500.00, 6, '113'), -- Password: password123
+('Robert Taylor', 'robert_taylor', 'robert@example.com', '4444444444', 'GHI University', 3, 2023, 'Environmental Science', 81.0, 'robert_taylor_resume.pdf', 'Environmental Internship', 4.3, 950.00, 3, '114'), -- Password: password123
+('Linda Anderson', 'linda_anderson', 'linda@example.com', '6666666666', 'JKL Institute', 2, 2024, 'Civil Engineering', 86.2, 'linda_anderson_resume.pdf', 'Civil Engineering Internship', 4.7, 1100.00, 4, '115'), -- Password: password123
+('William Martinez', 'william_martinez', 'william@example.com', '7777777777', 'DEF College', 4, 2022, 'Physics', 93.9, 'william_martinez_resume.pdf', 'Physics Research Internship', 5.0, 1800.00, 6, '116'), -- Password: password123
+('Maria Garcia', 'maria_garcia', 'maria@example.com', '9999999999', 'OPQ University', 3, 2023, 'Mathematics', 77.6, 'maria_garcia_resume.pdf', 'Mathematics Internship', 3.9, 600.00, 2, '117'); -- Password: password123
