@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $resumeFileName = basename($_FILES["resume"]["name"]);
         $targetFilePath = $targetDirectory . $resumeFileName;
         $fileType = pathinfo($targetFilePath, PATHINFO_EXTENSION);
-        echo "<br><br>inif";
+        // echo "<br><br>inif";
         // Rest of the file upload code remains unchanged
         // ...
         $allowedFileTypes = array('pdf', 'doc', 'docx');

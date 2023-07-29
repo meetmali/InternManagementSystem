@@ -4,7 +4,7 @@ include('connect.php');
 $username = $_POST['username'];
 $password = $_POST['password'];
 
-$query = "select * from interns where intern_username = '$username' and intern_password = '$password';";
+$query = "select * from interns where intern_email = '$username' and intern_password = '$password';";
 $result = $conn->query($query);
 if ($result->num_rows > 0) {
 	echo "<table>";
@@ -23,16 +23,7 @@ if ($result->num_rows > 0) {
     
     echo "</table>";
 }
-// $dataIntern = $_SESSION['dataIntern'];
-// $result = mysqli_query($GLOBALS['conn'], $query);
-// 	$data = mysqli_fetch_all($result);
-// 	// if ($data) {
-// 	// 	// return $data[0];
-// 	// }
-echo "username is $username and password is $password<br>";
-?>
-<!-- <?php
-for ($i = 0; $i < 10; $i++) {
-    echo "$dataIntern[0][$i]";
+else {
+    echo "Login Unsuccessful";
 }
-?> -->
+?>

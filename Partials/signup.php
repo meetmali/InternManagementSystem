@@ -19,8 +19,8 @@
             <a href="certificateVal.php">Certificate Validator</a>
         </div>
         <div class="right-links">
-            <a href="login.html">Signin</a>
-            <a href="signup.html">Signup</a>
+            <a href="login.php">Signin</a>
+            <a href="signup.php">Signup</a>
         </div>
     </nav>
 
@@ -63,7 +63,7 @@
             </form>
             <div class="signup-options">
               <span>Already have an account?</span>
-              <a href="/login">Login</a>
+              <a href="./login.php">Login</a>
             </div>
           </div>
         </div>
