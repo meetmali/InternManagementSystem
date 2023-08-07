@@ -16,7 +16,7 @@
         <div class="left-links">
             <a href="../index.php">Alpha Labs</a>
             <a href="internships.php">Internships</a>
-            <a href="#">Courses</a>
+            <a href="courses.php">Courses</a>
             <a href="about.php">About us</a>
             <a href="certificateVal.php">Certificate Validator</a>
         </div>

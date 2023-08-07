@@ -14,9 +14,9 @@
 <body>
     <nav class="navbar">
         <div class="left-links">
-            <a href="index.php">Alpha Labs</a>
+            <a href="./index.php">Alpha Labs</a>
             <a href="./Partials/internships.php">Internships</a>
-            <a href="#">Courses</a>
+            <a href="./Partials/courses.php">Courses</a>
             <a href="./Partials/about.php">About us</a>
             <a href="./Partials/certificateVal.php">Certificate Validator</a>
         </div>
